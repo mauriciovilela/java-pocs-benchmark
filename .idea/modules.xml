@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/course.main.iml" filepath="$PROJECT_DIR$/.idea/modules/course.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-course.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgres-lock.main.iml" filepath="$PROJECT_DIR$/.idea/modules/postgres-lock.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgres-message-broker-pub.main.iml" filepath="$PROJECT_DIR$/.idea/modules/postgres-message-broker-pub.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgres-message-broker-sub.main.iml" filepath="$PROJECT_DIR$/.idea/modules/postgres-message-broker-sub.main.iml" />
     </modules>
   </component>
 </project>
