@@ -20,18 +20,18 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/postgres-message-broker-pub" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/postgres-message-broker" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/postgres-message-broker-pub" />
+            <option value="$PROJECT_DIR$/postgres-message-broker" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/postgres-message-broker-sub" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sqs-message-broker" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/postgres-message-broker-sub" />
+            <option value="$PROJECT_DIR$/sqs-message-broker" />
           </set>
         </option>
       </GradleProjectSettings>

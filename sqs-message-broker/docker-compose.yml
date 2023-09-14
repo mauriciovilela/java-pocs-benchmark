@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+
+  db:
+    image: postgres:13.1-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: admin
+    network_mode: host
+
+  queue:
+    image: s12v/elasticmq:0.14.13
+    volumes:
+      - ./elasticmq.conf:/etc/elasticmq/elasticmq.conf
+    ports:
+      - "9324:9324"
