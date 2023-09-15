@@ -7,6 +7,7 @@ import com.tqi.course.repository.MessageRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
@@ -24,12 +25,15 @@ public class MessageService {
         messageSender.sendMessageAsync(order.getId().toString());
     }
 
+    @Transactional
     public void processMessageQueue(String id) {
-        // add message
-        messageRepository.save(Message.builder()
-                .creationDate(LocalDateTime.now())
-                .text(id)
-                .build());
+        ordersService.findById(Long.valueOf(id)).ifPresent(order -> {
+            // add message
+            messageRepository.save(Message.builder()
+                    .creationDate(LocalDateTime.now())
+                    .text(id)
+                    .build());
+        });
     }
 
 }

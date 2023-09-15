@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "employee")
@@ -20,5 +21,8 @@ public class Employee {
     Integer id;
     String name;
     String status;
+
+    @Column(name = "update_date")
+    LocalDateTime updateDate;
 
 }

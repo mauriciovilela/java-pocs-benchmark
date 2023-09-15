@@ -1,0 +1,743 @@
+2023-09-14T13:28:39,922-0300 [1287104 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T13:28:39,922-0300 [1287104 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T13:28:39,922-0300 [1287104 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T13:28:39,922-0300 [1287104 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T13:28:39,922-0300 [1287104 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T13:28:39,922-0300 [1287104 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T13:28:40,474-0300 [1287104 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T13:28:41,231-0300 [1287104 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T13:28:41,527-0300 [1287104 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T13:28:41,706-0300 [1287104 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T13:28:41,713-0300 [1287104 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T13:28:41,714-0300 [1287104 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T13:28:41,714-0300 [1287104 1] com.newrelic INFO: Premain startup complete in 2.508ms
+2023-09-14T13:28:41,717-0300 [1287104 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T13:28:45,919-0300 [1287195 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T13:28:45,920-0300 [1287195 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T13:28:45,920-0300 [1287195 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T13:28:45,920-0300 [1287195 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T13:28:45,920-0300 [1287195 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T13:28:45,920-0300 [1287195 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T13:28:46,834-0300 [1287104 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T13:28:47,136-0300 [1287195 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T13:28:48,380-0300 [1287104 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T13:28:48,381-0300 [1287104 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T13:28:48,836-0300 [1287195 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T13:28:49,424-0300 [1287195 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T13:28:49,839-0300 [1287195 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T13:28:49,849-0300 [1287195 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T13:28:49,849-0300 [1287195 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T13:28:49,849-0300 [1287195 1] com.newrelic INFO: Premain startup complete in 5.674ms
+2023-09-14T13:28:49,852-0300 [1287195 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T13:28:56,715-0300 [1287104 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T13:28:56,719-0300 [1287104 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T13:28:57,734-0300 [1287195 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T13:28:58,457-0300 [1287195 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T13:28:58,457-0300 [1287195 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T13:29:00,121-0300 [1287104 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T13:29:00,949-0300 [1287104 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T13:29:00,949-0300 [1287104 39] com.newrelic INFO: Agent run id: BbBw6bHIMTKRADR_0F0qBnplAzVEAAIBAAAnIQEAE6PAAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T13:29:00,950-0300 [1287104 39] com.newrelic INFO: Agent 1287104@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T13:29:00,950-0300 [1287104 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T13:29:00,951-0300 [1287104 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T13:29:00,952-0300 [1287104 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T13:29:00,952-0300 [1287104 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T13:29:00,955-0300 [1287104 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T13:29:00,955-0300 [1287104 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T13:29:00,956-0300 [1287104 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T13:29:01,711-0300 [1287104 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T13:29:01,712-0300 [1287104 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T13:29:04,857-0300 [1287195 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T13:29:04,859-0300 [1287195 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T13:29:08,825-0300 [1287195 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T13:29:09,510-0300 [1287195 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T13:29:09,511-0300 [1287195 39] com.newrelic INFO: Agent run id: BS-0QTi2P1VMADR_0F0qA4hlAzVEAAIBAAAnIQEAE6QbAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T13:29:09,511-0300 [1287195 39] com.newrelic INFO: Agent 1287195@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T13:29:09,512-0300 [1287195 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T13:29:09,517-0300 [1287195 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T13:29:09,517-0300 [1287195 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T13:29:09,517-0300 [1287195 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T13:29:09,522-0300 [1287195 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T13:29:09,522-0300 [1287195 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T13:29:09,522-0300 [1287195 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T13:29:10,838-0300 [1287195 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T13:29:10,838-0300 [1287195 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T15:47:07,170-0300 [1287195 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T15:47:07,523-0300 [1287195 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T15:47:07,916-0300 [1287104 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T15:47:08,688-0300 [1287104 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:12:58,151-0300 [2136463 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:12:58,152-0300 [2136463 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:12:58,152-0300 [2136463 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:12:58,152-0300 [2136463 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:12:58,152-0300 [2136463 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:12:58,152-0300 [2136463 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:12:58,429-0300 [2136527 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:12:58,429-0300 [2136527 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:12:58,430-0300 [2136527 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:12:58,430-0300 [2136527 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:12:58,430-0300 [2136527 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:12:58,430-0300 [2136527 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:12:58,927-0300 [2136463 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:12:59,663-0300 [2136527 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:13:01,049-0300 [2136463 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:13:01,577-0300 [2136527 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:13:01,887-0300 [2136463 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:13:02,227-0300 [2136527 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:13:02,335-0300 [2136463 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:13:02,358-0300 [2136463 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:13:02,359-0300 [2136463 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:13:02,359-0300 [2136463 1] com.newrelic INFO: Premain startup complete in 5.230ms
+2023-09-14T23:13:02,367-0300 [2136463 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:13:02,649-0300 [2136527 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:13:02,659-0300 [2136527 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:13:02,659-0300 [2136527 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:13:02,660-0300 [2136527 1] com.newrelic INFO: Premain startup complete in 5.230ms
+2023-09-14T23:13:02,663-0300 [2136527 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:13:11,768-0300 [2136463 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:13:12,030-0300 [2136527 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:13:12,867-0300 [2136463 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:13:12,868-0300 [2136463 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:13:13,113-0300 [2136527 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:13:13,113-0300 [2136527 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:13:22,354-0300 [2136463 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:13:22,356-0300 [2136463 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:13:22,661-0300 [2136527 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:13:22,662-0300 [2136527 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:13:23,610-0300 [2136463 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:13:23,705-0300 [2136527 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:13:24,060-0300 [2136527 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:13:24,060-0300 [2136527 39] com.newrelic INFO: Agent run id: BUG7dJjTsvUPADR_0F0qA4hlA74kAAIBAAAnIQEAIJnPAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:13:24,060-0300 [2136527 39] com.newrelic INFO: Agent 2136527@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:13:24,061-0300 [2136527 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:13:24,062-0300 [2136527 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:13:24,062-0300 [2136527 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:13:24,062-0300 [2136527 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:13:24,065-0300 [2136527 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:13:24,065-0300 [2136527 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:13:24,065-0300 [2136527 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:13:24,232-0300 [2136463 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:13:24,232-0300 [2136463 39] com.newrelic INFO: Agent run id: Bb6gSYjo8ftnADR_0F0qBnplA74kAAIBAAAnIQEAIJmPAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:13:24,232-0300 [2136463 39] com.newrelic INFO: Agent 2136463@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:13:24,232-0300 [2136463 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:13:24,234-0300 [2136463 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:13:24,234-0300 [2136463 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:13:24,234-0300 [2136463 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:13:24,237-0300 [2136463 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:13:24,237-0300 [2136463 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:13:24,237-0300 [2136463 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:13:24,741-0300 [2136527 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:13:24,742-0300 [2136527 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:13:24,773-0300 [2136463 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:13:24,774-0300 [2136463 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:15:45,501-0300 [2136463 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:15:45,813-0300 [2136527 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:15:46,257-0300 [2136463 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:15:46,800-0300 [2136527 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:15:57,017-0300 [2176602 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:15:57,018-0300 [2176602 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:15:57,018-0300 [2176602 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:15:57,018-0300 [2176602 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:15:57,018-0300 [2176602 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:15:57,018-0300 [2176602 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:15:57,654-0300 [2176602 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:15:58,438-0300 [2176602 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:15:58,757-0300 [2176602 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:15:58,987-0300 [2176602 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:15:58,994-0300 [2176602 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:15:58,994-0300 [2176602 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:15:58,994-0300 [2176602 1] com.newrelic INFO: Premain startup complete in 2.775ms
+2023-09-14T23:15:58,997-0300 [2176602 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:16:00,329-0300 [2176741 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:16:00,329-0300 [2176741 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:16:00,330-0300 [2176741 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:16:00,330-0300 [2176741 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:16:00,330-0300 [2176741 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:16:00,330-0300 [2176741 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:16:01,453-0300 [2176741 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:16:03,768-0300 [2176741 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:16:04,902-0300 [2176741 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:16:05,492-0300 [2176741 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:16:05,521-0300 [2176741 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:16:05,521-0300 [2176741 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:16:05,522-0300 [2176741 1] com.newrelic INFO: Premain startup complete in 6.708ms
+2023-09-14T23:16:05,527-0300 [2176741 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:16:09,223-0300 [2176602 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:16:11,318-0300 [2176602 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:16:11,318-0300 [2176602 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:16:18,015-0300 [2176741 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:16:19,491-0300 [2176741 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:16:19,491-0300 [2176741 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:16:23,995-0300 [2176602 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:16:23,996-0300 [2176602 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:16:25,260-0300 [2176602 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:16:26,099-0300 [2176602 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:16:26,099-0300 [2176602 39] com.newrelic INFO: Agent run id: BTUw9fqitbxjADR_0F0qBnplA77YAAIBAAAnIQEAITZaAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:16:26,099-0300 [2176602 39] com.newrelic INFO: Agent 2176602@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:16:26,100-0300 [2176602 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:16:26,102-0300 [2176602 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:16:26,102-0300 [2176602 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:16:26,103-0300 [2176602 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:16:26,107-0300 [2176602 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:16:26,108-0300 [2176602 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:16:26,108-0300 [2176602 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:16:26,941-0300 [2176602 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:16:26,942-0300 [2176602 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:16:30,520-0300 [2176741 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:16:30,521-0300 [2176741 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:16:33,133-0300 [2176741 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:16:34,234-0300 [2176741 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:16:34,234-0300 [2176741 39] com.newrelic INFO: Agent run id: Bb7V4orYZGZPADR_0F0qA4hlA77YAAIBAAAnIQEAITblAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:16:34,234-0300 [2176741 39] com.newrelic INFO: Agent 2176741@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:16:34,235-0300 [2176741 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:16:34,250-0300 [2176741 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:16:34,250-0300 [2176741 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:16:34,251-0300 [2176741 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:16:34,264-0300 [2176741 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:16:34,265-0300 [2176741 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:16:34,265-0300 [2176741 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:16:36,927-0300 [2176741 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:16:36,928-0300 [2176741 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:27:45,629-0300 [2176602 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:27:45,918-0300 [2176741 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:27:46,414-0300 [2176602 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:27:46,774-0300 [2176741 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:41:35,335-0300 [2244278 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:41:35,335-0300 [2244278 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:41:35,335-0300 [2244278 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:41:35,335-0300 [2244278 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:41:35,335-0300 [2244278 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:41:35,336-0300 [2244278 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:41:35,904-0300 [2244278 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:41:36,635-0300 [2244278 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:41:36,943-0300 [2244278 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:41:37,106-0300 [2244278 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:41:37,113-0300 [2244278 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:41:37,114-0300 [2244278 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:41:37,114-0300 [2244278 1] com.newrelic INFO: Premain startup complete in 2.560ms
+2023-09-14T23:41:37,116-0300 [2244278 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:41:41,398-0300 [2244370 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:41:41,399-0300 [2244370 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:41:41,399-0300 [2244370 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:41:41,399-0300 [2244370 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:41:41,399-0300 [2244370 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:41:41,400-0300 [2244370 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:41:41,902-0300 [2244278 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:41:42,605-0300 [2244370 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:41:43,143-0300 [2244278 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:41:43,143-0300 [2244278 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:41:44,031-0300 [2244278 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:41:44,036-0300 [2244278 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:41:44,249-0300 [2244370 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:41:44,629-0300 [2244370 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:41:44,815-0300 [2244370 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:41:44,823-0300 [2244370 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:41:44,823-0300 [2244370 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:41:44,823-0300 [2244370 1] com.newrelic INFO: Premain startup complete in 5.075ms
+2023-09-14T23:41:44,826-0300 [2244370 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:41:49,341-0300 [2244370 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:41:50,048-0300 [2244370 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:41:50,048-0300 [2244370 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:41:50,506-0300 [2244370 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:41:50,509-0300 [2244370 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:42:09,634-0300 [2245159 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:42:09,635-0300 [2245159 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:42:09,635-0300 [2245159 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:42:09,635-0300 [2245159 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:42:09,635-0300 [2245159 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:42:09,635-0300 [2245159 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:42:10,212-0300 [2245159 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:42:11,319-0300 [2245159 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:42:11,777-0300 [2245159 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:42:12,021-0300 [2245159 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:42:12,028-0300 [2245159 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:42:12,028-0300 [2245159 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:42:12,028-0300 [2245159 1] com.newrelic INFO: Premain startup complete in 3.129ms
+2023-09-14T23:42:12,031-0300 [2245159 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:42:12,363-0300 [2245210 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:42:12,363-0300 [2245210 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:42:12,363-0300 [2245210 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:42:12,363-0300 [2245210 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:42:12,364-0300 [2245210 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:42:12,364-0300 [2245210 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:42:13,572-0300 [2245210 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:42:15,522-0300 [2245210 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:42:16,228-0300 [2245210 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:42:16,608-0300 [2245210 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:42:16,623-0300 [2245210 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:42:16,623-0300 [2245210 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:42:16,624-0300 [2245210 1] com.newrelic INFO: Premain startup complete in 5.789ms
+2023-09-14T23:42:16,628-0300 [2245210 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:42:21,180-0300 [2245159 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:42:22,904-0300 [2245159 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:42:22,905-0300 [2245159 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:42:25,989-0300 [2245210 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:42:26,969-0300 [2245210 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:42:26,970-0300 [2245210 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:42:32,028-0300 [2245159 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:42:32,029-0300 [2245159 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:42:32,159-0300 [2245210 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:42:32,164-0300 [2245210 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:42:32,702-0300 [2245159 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:42:33,568-0300 [2245159 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:42:33,568-0300 [2245159 39] com.newrelic INFO: Agent run id: BeWlVc6aW7blADR_0F0qBnplA8TwAAIBAAAnIQEAIkInAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:42:33,570-0300 [2245159 39] com.newrelic INFO: Agent 2245159@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:42:33,570-0300 [2245159 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:42:33,573-0300 [2245159 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:42:33,573-0300 [2245159 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:42:33,573-0300 [2245159 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:42:33,578-0300 [2245159 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:42:33,578-0300 [2245159 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:42:33,578-0300 [2245159 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:42:34,823-0300 [2245159 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:42:34,823-0300 [2245159 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:42:39,401-0300 [2245159 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:42:39,403-0300 [2245159 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@311093f7 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,403-0300 [2245159 73] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@3245937a tried to finish but ServiceManager not started
+2023-09-14T23:42:39,403-0300 [2245159 72] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@3456fddf tried to finish but ServiceManager not started
+2023-09-14T23:42:39,405-0300 [2245159 60] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@2e15380 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,405-0300 [2245159 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@532e3436 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,407-0300 [2245159 61] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@6f0da60f tried to finish but ServiceManager not started
+2023-09-14T23:42:39,409-0300 [2245159 59] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@289f659c tried to finish but ServiceManager not started
+2023-09-14T23:42:39,409-0300 [2245159 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4c4c9a22 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,410-0300 [2245159 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@687b7724 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,412-0300 [2245159 61] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@7d00aef5 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,412-0300 [2245159 72] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@633cad94 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,412-0300 [2245159 54] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@2c6b23fc tried to finish but ServiceManager not started
+2023-09-14T23:42:39,414-0300 [2245159 60] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@73ced8de tried to finish but ServiceManager not started
+2023-09-14T23:42:39,414-0300 [2245159 55] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5bce9bf0 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,415-0300 [2245159 59] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@3024d68a tried to finish but ServiceManager not started
+2023-09-14T23:42:39,416-0300 [2245159 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@1c29e505 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,416-0300 [2245159 56] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@14c1feb7 tried to finish but ServiceManager not started
+2023-09-14T23:42:39,418-0300 [2245159 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5201cf72 tried to finish but ServiceManager not started
+2023-09-14T23:42:40,259-0300 [2245159 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:42:43,820-0300 [2245690 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:42:43,820-0300 [2245690 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:42:43,821-0300 [2245690 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:42:43,821-0300 [2245690 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:42:43,821-0300 [2245690 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:42:43,821-0300 [2245690 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:42:44,377-0300 [2245690 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:42:45,161-0300 [2245690 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:42:45,495-0300 [2245690 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:42:45,667-0300 [2245690 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:42:45,674-0300 [2245690 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:42:45,674-0300 [2245690 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:42:45,674-0300 [2245690 1] com.newrelic INFO: Premain startup complete in 2.619ms
+2023-09-14T23:42:45,677-0300 [2245690 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:42:49,592-0300 [2245780 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:42:49,593-0300 [2245780 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:42:49,593-0300 [2245780 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:42:49,593-0300 [2245780 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:42:49,593-0300 [2245780 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:42:49,593-0300 [2245780 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:42:50,975-0300 [2245780 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:42:51,489-0300 [2245690 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:42:53,072-0300 [2245780 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:42:53,804-0300 [2245690 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:42:53,805-0300 [2245690 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:42:54,075-0300 [2245780 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:42:54,549-0300 [2245780 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:42:54,568-0300 [2245780 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:42:54,568-0300 [2245780 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:42:54,569-0300 [2245780 1] com.newrelic INFO: Premain startup complete in 6.993ms
+2023-09-14T23:42:54,575-0300 [2245780 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:43:04,775-0300 [2245780 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:43:05,675-0300 [2245690 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:43:05,676-0300 [2245690 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:43:05,820-0300 [2245780 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:43:05,821-0300 [2245780 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:43:06,638-0300 [2245690 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:43:07,771-0300 [2245690 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:43:07,771-0300 [2245690 39] com.newrelic INFO: Agent run id: Be0Y9c2Au_TEADR_0F0qBnplA8UsAAIBAAAnIQEAIkQ6AgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:43:07,771-0300 [2245690 39] com.newrelic INFO: Agent 2245690@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:43:07,772-0300 [2245690 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:43:07,775-0300 [2245690 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:43:07,775-0300 [2245690 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:43:07,775-0300 [2245690 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:43:07,781-0300 [2245690 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:43:07,781-0300 [2245690 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:43:07,781-0300 [2245690 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:43:08,743-0300 [2245690 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:43:08,744-0300 [2245690 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:43:14,568-0300 [2245780 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:43:14,570-0300 [2245780 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:43:15,719-0300 [2245780 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:43:16,867-0300 [2245780 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:43:16,867-0300 [2245780 39] com.newrelic INFO: Agent run id: BcDwZWuKgsH7ADR_0F0qA4hlA8UsAAIBAAAnIQEAIkSUAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:43:16,868-0300 [2245780 39] com.newrelic INFO: Agent 2245780@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:43:16,872-0300 [2245780 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:43:16,883-0300 [2245780 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:43:16,883-0300 [2245780 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:43:16,883-0300 [2245780 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:43:16,903-0300 [2245780 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:43:16,903-0300 [2245780 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:43:16,903-0300 [2245780 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:43:18,582-0300 [2245780 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:43:18,583-0300 [2245780 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:43:34,101-0300 [2245780 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:43:34,110-0300 [2245780 70] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@7b55799f tried to finish but ServiceManager not started
+2023-09-14T23:43:34,112-0300 [2245780 60] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5b458bd2 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,113-0300 [2245780 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4b26b0f2 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,120-0300 [2245780 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4d684372 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,125-0300 [2245780 54] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5d7a657b tried to finish but ServiceManager not started
+2023-09-14T23:43:34,127-0300 [2245780 61] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@652cb251 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,129-0300 [2245780 69] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4cef1762 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,132-0300 [2245780 55] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@24556c33 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,134-0300 [2245780 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@14a43708 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,144-0300 [2245780 56] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@b7f35cd tried to finish but ServiceManager not started
+2023-09-14T23:43:34,148-0300 [2245780 59] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@55807487 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,603-0300 [2245690 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:43:34,606-0300 [2245690 53] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@7834251d tried to finish but ServiceManager not started
+2023-09-14T23:43:34,607-0300 [2245690 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@502e18cd tried to finish but ServiceManager not started
+2023-09-14T23:43:34,608-0300 [2245690 74] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@31dab2b5 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,609-0300 [2245690 72] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5d473043 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,610-0300 [2245690 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@771fa034 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,610-0300 [2245690 55] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@1f9b4e00 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,610-0300 [2245690 56] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@f5fb848 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,610-0300 [2245690 60] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@79187643 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,611-0300 [2245690 61] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4d1a59d7 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,612-0300 [2245690 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@564b4192 tried to finish but ServiceManager not started
+2023-09-14T23:43:34,881-0300 [2245780 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:43:35,287-0300 [2245690 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:44:13,292-0300 [2247081 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:44:13,293-0300 [2247081 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:44:13,293-0300 [2247081 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:44:13,293-0300 [2247081 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:44:13,293-0300 [2247081 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:44:13,293-0300 [2247081 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:44:13,926-0300 [2247081 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:44:14,602-0300 [2247081 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:44:14,957-0300 [2247081 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:44:15,188-0300 [2247081 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:44:15,197-0300 [2247081 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:44:15,197-0300 [2247081 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:44:15,197-0300 [2247081 1] com.newrelic INFO: Premain startup complete in 2.727ms
+2023-09-14T23:44:15,200-0300 [2247081 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:44:18,964-0300 [2247156 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:44:18,968-0300 [2247156 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:44:18,969-0300 [2247156 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:44:18,969-0300 [2247156 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:44:18,970-0300 [2247156 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:44:18,970-0300 [2247156 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:44:20,827-0300 [2247156 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:44:23,526-0300 [2247156 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:44:24,691-0300 [2247156 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:44:25,321-0300 [2247156 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:44:25,349-0300 [2247156 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:44:25,349-0300 [2247156 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:44:25,351-0300 [2247156 1] com.newrelic INFO: Premain startup complete in 8.839ms
+2023-09-14T23:44:25,359-0300 [2247156 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:44:26,145-0300 [2247081 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:44:28,440-0300 [2247081 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:44:28,441-0300 [2247081 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:44:37,363-0300 [2247156 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:44:38,864-0300 [2247156 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:44:38,865-0300 [2247156 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:44:40,197-0300 [2247081 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:44:40,198-0300 [2247081 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:44:41,550-0300 [2247081 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:44:42,336-0300 [2247081 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:44:42,336-0300 [2247081 39] com.newrelic INFO: Agent run id: BfO-zwC6su__ADR_0F0qBnplA8VoAAIBAAAnIQEAIkmpAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:44:42,336-0300 [2247081 39] com.newrelic INFO: Agent 2247081@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:44:42,337-0300 [2247081 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:44:42,339-0300 [2247081 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:44:42,339-0300 [2247081 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:44:42,340-0300 [2247081 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:44:42,343-0300 [2247081 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:44:42,343-0300 [2247081 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:44:42,344-0300 [2247081 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:44:43,558-0300 [2247081 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:44:43,559-0300 [2247081 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:44:45,345-0300 [2247156 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:44:45,346-0300 [2247156 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:44:46,415-0300 [2247156 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:44:47,049-0300 [2247156 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:44:47,050-0300 [2247156 39] com.newrelic INFO: Agent run id: BTbIRbLIJVb-ADR_0F0qA4hlA8VoAAIBAAAnIQEAIkn0AgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:44:47,051-0300 [2247156 39] com.newrelic INFO: Agent 2247156@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:44:47,052-0300 [2247156 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:44:47,059-0300 [2247156 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:44:47,059-0300 [2247156 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:44:47,059-0300 [2247156 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:44:47,065-0300 [2247156 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:44:47,065-0300 [2247156 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:44:47,066-0300 [2247156 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:44:47,765-0300 [2247156 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:44:47,765-0300 [2247156 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:45:51,251-0300 [2247156 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:45:51,489-0300 [2247081 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:45:51,838-0300 [2247156 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:45:51,847-0300 [2247081 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:46:41,879-0300 [2249188 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:46:41,879-0300 [2249188 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:46:41,880-0300 [2249188 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:46:41,880-0300 [2249188 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:46:41,880-0300 [2249188 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:46:41,880-0300 [2249188 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:46:42,434-0300 [2249188 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:46:43,338-0300 [2249188 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:46:43,651-0300 [2249188 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:46:43,840-0300 [2249188 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:46:43,847-0300 [2249188 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:46:43,847-0300 [2249188 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:46:43,848-0300 [2249188 1] com.newrelic INFO: Premain startup complete in 2.789ms
+2023-09-14T23:46:43,851-0300 [2249188 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:46:48,599-0300 [2249188 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:46:49,298-0300 [2249188 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:46:49,298-0300 [2249188 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:46:53,847-0300 [2249188 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:46:53,848-0300 [2249188 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:46:54,997-0300 [2249188 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:46:55,366-0300 [2249188 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:46:55,366-0300 [2249188 39] com.newrelic INFO: Agent run id: BfW_FWWDqGzLADR_0F0qA4hlA8XgAAIBAAAnIQEAIlHkAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:46:55,366-0300 [2249188 39] com.newrelic INFO: Agent 2249188@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:46:55,367-0300 [2249188 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:46:55,369-0300 [2249188 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:46:55,369-0300 [2249188 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:46:55,369-0300 [2249188 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:46:55,372-0300 [2249188 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:46:55,372-0300 [2249188 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:46:55,372-0300 [2249188 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:46:56,466-0300 [2249188 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:46:56,467-0300 [2249188 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:48:38,547-0300 [2249188 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:48:38,550-0300 [2249188 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@2de9b8a0 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,552-0300 [2249188 53] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@48af41a9 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,553-0300 [2249188 55] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@1d9a560b tried to finish but ServiceManager not started
+2023-09-14T23:48:38,554-0300 [2249188 61] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@7a1509de tried to finish but ServiceManager not started
+2023-09-14T23:48:38,561-0300 [2249188 69] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@10d32512 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,562-0300 [2249188 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@2928e763 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,565-0300 [2249188 70] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@41fd256c tried to finish but ServiceManager not started
+2023-09-14T23:48:38,565-0300 [2249188 59] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@6dc96c15 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,566-0300 [2249188 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@21ca5dfc tried to finish but ServiceManager not started
+2023-09-14T23:48:38,570-0300 [2249188 60] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4cefdd70 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,573-0300 [2249188 54] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@374264cf tried to finish but ServiceManager not started
+2023-09-14T23:48:38,574-0300 [2249188 56] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@59022ac6 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,576-0300 [2249188 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@7517f0c1 tried to finish but ServiceManager not started
+2023-09-14T23:48:38,578-0300 [2249188 53] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@4cba1c5d tried to finish but ServiceManager not started
+2023-09-14T23:48:39,040-0300 [2251955 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:48:39,040-0300 [2251955 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:48:39,040-0300 [2251955 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:48:39,040-0300 [2251955 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:48:39,040-0300 [2251955 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:48:39,040-0300 [2251955 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:48:39,334-0300 [2249188 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:48:39,732-0300 [2251955 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:48:40,719-0300 [2251955 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:48:41,093-0300 [2251955 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:48:41,276-0300 [2251955 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:48:41,284-0300 [2251955 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:48:41,285-0300 [2251955 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:48:41,285-0300 [2251955 1] com.newrelic INFO: Premain startup complete in 3.848ms
+2023-09-14T23:48:41,289-0300 [2251955 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:48:45,541-0300 [2251955 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:48:46,370-0300 [2251955 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:48:46,371-0300 [2251955 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:48:48,631-0300 [2252889 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:48:48,632-0300 [2252889 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:48:48,632-0300 [2252889 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:48:48,632-0300 [2252889 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:48:48,632-0300 [2252889 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:48:48,632-0300 [2252889 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:48:49,426-0300 [2252889 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:48:50,753-0300 [2252889 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:48:51,111-0300 [2252889 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:48:51,519-0300 [2252889 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:48:51,541-0300 [2252889 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:48:51,542-0300 [2252889 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:48:51,542-0300 [2252889 1] com.newrelic INFO: Premain startup complete in 4.145ms
+2023-09-14T23:48:51,546-0300 [2252889 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:48:56,285-0300 [2251955 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:48:56,288-0300 [2251955 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:48:56,828-0300 [2252889 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:48:57,254-0300 [2251955 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:48:57,600-0300 [2252889 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:48:57,600-0300 [2252889 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:48:58,028-0300 [2251955 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:48:58,028-0300 [2251955 39] com.newrelic INFO: Agent run id: BS-OfYnFBWoBADR_0F0qBnplA8ZYAAIBAAAnIQEAIlyzAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:48:58,029-0300 [2251955 39] com.newrelic INFO: Agent 2251955@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:48:58,029-0300 [2251955 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:48:58,031-0300 [2251955 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:48:58,031-0300 [2251955 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:48:58,031-0300 [2251955 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:48:58,037-0300 [2251955 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:48:58,037-0300 [2251955 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:48:58,037-0300 [2251955 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:48:58,787-0300 [2251955 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:48:58,787-0300 [2251955 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:49:01,536-0300 [2252889 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:49:01,537-0300 [2252889 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:49:02,467-0300 [2252889 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:49:03,030-0300 [2252889 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:49:03,030-0300 [2252889 39] com.newrelic INFO: Agent run id: BQESyrLFTQMRADR_0F0qA4hlA8aUAAIBAAAnIQEAImBZAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:49:03,030-0300 [2252889 39] com.newrelic INFO: Agent 2252889@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:49:03,031-0300 [2252889 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:49:03,032-0300 [2252889 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:49:03,032-0300 [2252889 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:49:03,032-0300 [2252889 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:49:03,035-0300 [2252889 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:49:03,035-0300 [2252889 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:49:03,035-0300 [2252889 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:49:03,454-0300 [2252889 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:49:03,455-0300 [2252889 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:55:21,439-0300 [2252889 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-14T23:55:21,764-0300 [2252889 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-14T23:56:42,248-0300 [2308122 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-14T23:56:42,248-0300 [2308122 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-14T23:56:42,249-0300 [2308122 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-14T23:56:42,249-0300 [2308122 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-14T23:56:42,249-0300 [2308122 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-14T23:56:42,249-0300 [2308122 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-14T23:56:42,806-0300 [2308122 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-14T23:56:43,528-0300 [2308122 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-14T23:56:43,832-0300 [2308122 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-14T23:56:43,994-0300 [2308122 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-14T23:56:44,000-0300 [2308122 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-14T23:56:44,000-0300 [2308122 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-14T23:56:44,001-0300 [2308122 1] com.newrelic INFO: Premain startup complete in 2.605ms
+2023-09-14T23:56:44,003-0300 [2308122 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-14T23:56:48,865-0300 [2308122 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-14T23:56:49,701-0300 [2308122 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-14T23:56:49,702-0300 [2308122 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-14T23:56:54,001-0300 [2308122 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-14T23:56:54,001-0300 [2308122 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-14T23:56:55,132-0300 [2308122 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-14T23:56:56,187-0300 [2308122 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-14T23:56:56,187-0300 [2308122 39] com.newrelic INFO: Agent run id: BRGNpZLypVaZADR_0F0qA4hlA8g4AAIBAAAnIQEAIzgaAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-14T23:56:56,188-0300 [2308122 39] com.newrelic INFO: Agent 2308122@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-14T23:56:56,188-0300 [2308122 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-14T23:56:56,190-0300 [2308122 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:56:56,190-0300 [2308122 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:56:56,190-0300 [2308122 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:56:56,193-0300 [2308122 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-14T23:56:56,193-0300 [2308122 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-14T23:56:56,193-0300 [2308122 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-14T23:56:56,876-0300 [2308122 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-14T23:56:56,877-0300 [2308122 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:00:12,935-0300 [2308122 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-15T00:00:13,684-0300 [2308122 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-15T00:00:20,702-0300 [2251955 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-15T00:00:21,488-0300 [2251955 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-15T00:05:16,444-0300 [2323626 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-15T00:05:16,444-0300 [2323626 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-15T00:05:16,444-0300 [2323626 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-15T00:05:16,444-0300 [2323626 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-15T00:05:16,444-0300 [2323626 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-15T00:05:16,444-0300 [2323626 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-15T00:05:16,992-0300 [2323626 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-15T00:05:17,765-0300 [2323626 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-15T00:05:18,042-0300 [2323626 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-15T00:05:18,199-0300 [2323626 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-15T00:05:18,206-0300 [2323626 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-15T00:05:18,206-0300 [2323626 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-15T00:05:18,206-0300 [2323626 1] com.newrelic INFO: Premain startup complete in 2.565ms
+2023-09-15T00:05:18,209-0300 [2323626 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-15T00:05:22,768-0300 [2323626 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-15T00:05:23,676-0300 [2323626 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-15T00:05:23,676-0300 [2323626 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-15T00:05:24,396-0300 [2323749 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-15T00:05:24,397-0300 [2323749 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-15T00:05:24,397-0300 [2323749 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-15T00:05:24,397-0300 [2323749 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-15T00:05:24,397-0300 [2323749 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-15T00:05:24,397-0300 [2323749 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-15T00:05:25,417-0300 [2323749 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-15T00:05:25,497-0300 [2323749 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-15T00:05:25,497-0300 [2323749 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-15T00:05:33,209-0300 [2323626 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-15T00:05:33,212-0300 [2323626 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:05:34,570-0300 [2323626 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-15T00:05:35,337-0300 [2323626 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-15T00:05:35,338-0300 [2323626 39] com.newrelic INFO: Agent run id: BSrg11K0-i0FADR_0F0qA4hlA8pUAAIBAAAnIQEAI3SqAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-15T00:05:35,338-0300 [2323626 39] com.newrelic INFO: Agent 2323626@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-15T00:05:35,338-0300 [2323626 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-15T00:05:35,340-0300 [2323626 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-15T00:05:35,340-0300 [2323626 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-15T00:05:35,340-0300 [2323626 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-15T00:05:35,344-0300 [2323626 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-15T00:05:35,344-0300 [2323626 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-15T00:05:35,344-0300 [2323626 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-15T00:05:36,099-0300 [2323626 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-15T00:05:36,100-0300 [2323626 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:05:48,159-0300 [2323626 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-15T00:05:48,162-0300 [2323626 59] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@658c09f2 tried to finish but ServiceManager not started
+2023-09-15T00:05:48,163-0300 [2323626 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@36b69745 tried to finish but ServiceManager not started
+2023-09-15T00:05:48,167-0300 [2323626 55] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@3124c7b9 tried to finish but ServiceManager not started
+2023-09-15T00:05:48,170-0300 [2323626 53] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5cf1b568 tried to finish but ServiceManager not started
+2023-09-15T00:05:48,174-0300 [2323626 60] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@c78a25f tried to finish but ServiceManager not started
+2023-09-15T00:05:48,176-0300 [2323626 61] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@79718906 tried to finish but ServiceManager not started
+2023-09-15T00:05:48,178-0300 [2323626 56] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@2a442a9f tried to finish but ServiceManager not started
+2023-09-15T00:05:48,181-0300 [2323626 52] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@77f9adf7 tried to finish but ServiceManager not started
+2023-09-15T00:05:48,181-0300 [2323626 72] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@73bab93b tried to finish but ServiceManager not started
+2023-09-15T00:05:48,185-0300 [2323626 57] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@6732c97a tried to finish but ServiceManager not started
+2023-09-15T00:05:48,190-0300 [2323626 54] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@421205dd tried to finish but ServiceManager not started
+2023-09-15T00:05:48,192-0300 [2323626 59] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@40ff071b tried to finish but ServiceManager not started
+2023-09-15T00:05:49,530-0300 [2323626 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-15T00:06:05,419-0300 [2325732 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-15T00:06:05,419-0300 [2325732 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-15T00:06:05,419-0300 [2325732 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-15T00:06:05,419-0300 [2325732 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-15T00:06:05,419-0300 [2325732 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-15T00:06:05,420-0300 [2325732 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-15T00:06:06,000-0300 [2325732 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-15T00:06:06,706-0300 [2325732 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-15T00:06:06,982-0300 [2325732 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-15T00:06:07,126-0300 [2325732 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-15T00:06:07,135-0300 [2325732 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-15T00:06:07,135-0300 [2325732 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-15T00:06:07,136-0300 [2325732 1] com.newrelic INFO: Premain startup complete in 2.475ms
+2023-09-15T00:06:07,139-0300 [2325732 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-15T00:06:11,572-0300 [2325732 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-15T00:06:12,488-0300 [2325732 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-15T00:06:12,488-0300 [2325732 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-15T00:06:12,952-0300 [2325807 1] com.newrelic INFO: Writing to New Relic log file: /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/logs/newrelic_agent.log
+2023-09-15T00:06:12,953-0300 [2325807 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 17
+2023-09-15T00:06:12,953-0300 [2325807 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 17+35-LTS
+2023-09-15T00:06:12,953-0300 [2325807 1] com.newrelic INFO: OS Linux version 6.2.0-32-generic arch amd64
+2023-09-15T00:06:12,953-0300 [2325807 1] com.newrelic INFO: Agent Host: ni-tqi2725 IP: 127.0.1.1
+2023-09-15T00:06:12,954-0300 [2325807 1] com.newrelic INFO: New Relic Agent v8.6.0 is initializing...
+2023-09-15T00:06:13,919-0300 [2325807 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-09-15T00:06:15,258-0300 [2325807 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-09-15T00:06:15,712-0300 [2325807 1] com.newrelic INFO: Setting audit_mode to false
+2023-09-15T00:06:15,993-0300 [2325807 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/tqi_mvilela/wks/spring-boot-course/postgres-message-broker/./newrelic.yml
+2023-09-15T00:06:16,003-0300 [2325807 1] com.newrelic INFO: New Relic Agent v8.6.0 has started
+2023-09-15T00:06:16,003-0300 [2325807 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2023-09-15T00:06:16,003-0300 [2325807 1] com.newrelic INFO: Premain startup complete in 4.832ms
+2023-09-15T00:06:16,007-0300 [2325807 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-09-15T00:06:22,134-0300 [2325732 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-15T00:06:22,135-0300 [2325732 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:06:22,366-0300 [2325807 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.63
+2023-09-15T00:06:22,984-0300 [2325732 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-15T00:06:23,188-0300 [2325807 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 28.800.000ms created
+2023-09-15T00:06:23,188-0300 [2325807 1] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 28.800.000ms created
+2023-09-15T00:06:24,054-0300 [2325732 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-15T00:06:24,054-0300 [2325732 39] com.newrelic INFO: Agent run id: Bdt9J5m2_qzNADR_0F0qA4hlA8qQAAIBAAAnIQEAI3zkAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-15T00:06:24,055-0300 [2325732 39] com.newrelic INFO: Agent 2325732@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-15T00:06:24,057-0300 [2325732 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-15T00:06:24,058-0300 [2325732 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-15T00:06:24,059-0300 [2325732 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-15T00:06:24,059-0300 [2325732 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-15T00:06:24,065-0300 [2325732 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-15T00:06:24,065-0300 [2325732 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-15T00:06:24,065-0300 [2325732 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-15T00:06:24,774-0300 [2325732 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-15T00:06:24,775-0300 [2325732 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:06:31,001-0300 [2325807 39] com.newrelic INFO: Host name is ni-tqi2725, display host ni-tqi2725 for application postgres-message-broker
+2023-09-15T00:06:31,004-0300 [2325807 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:06:33,211-0300 [2325807 39] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-09-15T00:06:34,447-0300 [2325807 39] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2023-09-15T00:06:34,447-0300 [2325807 39] com.newrelic INFO: Agent run id: BbCbqpio5-CcADR_0F0qBnplA8qQAAIBAAAnIQEAI30vAgRdKgi5AwAFOC42LjAACm5pLXRxaTI3MjUAF3Bvc3RncmVzLW1lc3NhZ2UtYnJva2Vy
+2023-09-15T00:06:34,448-0300 [2325807 39] com.newrelic INFO: Agent 2325807@ni-tqi2725/postgres-message-broker connected to collector.newrelic.com:443
+2023-09-15T00:06:34,455-0300 [2325807 39] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3440592/applications/1563035833
+2023-09-15T00:06:34,458-0300 [2325807 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-15T00:06:34,458-0300 [2325807 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-15T00:06:34,458-0300 [2325807 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-15T00:06:34,469-0300 [2325807 39] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-09-15T00:06:34,469-0300 [2325807 39] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-09-15T00:06:34,469-0300 [2325807 39] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-09-15T00:06:35,266-0300 [2325807 39] com.newrelic INFO: Real user monitoring is enabled for application postgres-message-broker. Auto instrumentation is enabled.
+2023-09-15T00:06:35,268-0300 [2325807 39] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-09-15T00:07:32,872-0300 [2325732 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-15T00:07:33,220-0300 [2325732 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-09-15T00:07:33,225-0300 [2325807 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-09-15T00:07:34,019-0300 [2325807 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown

@@ -1,12 +1,12 @@
 package com.tqi.course.service;
 
 import com.tqi.course.config.PgTopicEnum;
+import com.tqi.course.model.Order;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.transaction.annotation.Transactional;
 
 @Slf4j
 @RequiredArgsConstructor
@@ -21,7 +21,6 @@ public class NotifierService {
     @Autowired
     private OptimisticLockService optimisticLockService;
 
-    @Transactional
     public void createRecordAndNotify(PgTopicEnum topicEnum) {
         if (topicEnum.equals(PgTopicEnum.PESSIMIST_LOCK)) {
             notify(pessimistLockService.create().getId(), topicEnum);
@@ -29,6 +28,9 @@ public class NotifierService {
             notify(optimisticLockService.create().getId(), topicEnum);
         } else if (topicEnum.equals(PgTopicEnum.DEFAULT_TOPIC)) {
             notify(ordersService.create().getId(), topicEnum);
+        } else if (topicEnum.equals(PgTopicEnum.NONE)) {
+            Order order = ordersService.create();
+            ordersService.processWithTopic(order.getId());
         } else {
             log.info("topic is not found");
         }

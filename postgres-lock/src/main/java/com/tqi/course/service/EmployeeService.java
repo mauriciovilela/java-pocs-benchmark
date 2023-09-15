@@ -4,18 +4,18 @@ import com.tqi.course.model.Employee;
 import com.tqi.course.model.Log;
 import com.tqi.course.repository.EmployeeRepository;
 import com.tqi.course.repository.LogRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Component
+@Slf4j
 public class EmployeeService {
 
     @Autowired
@@ -26,9 +26,19 @@ public class EmployeeService {
 
     private static final String PENDING = "P";
     private static final String DONE = "D";
+    private static final int TOTAL_PER_LOT = 1000;
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
-    public void processPostgres() {
+    @Transactional
+    public void processWithSkipLock() {
+        List<Employee> listToProcess = findByStatusSkipLock(PENDING).stream().toList();
+        while (!listToProcess.isEmpty()) {
+            listToProcess.forEach(this::processItem);
+            listToProcess = findByStatusSkipLock(PENDING).toList();
+        }
+    }
+
+    @Transactional //(propagation = Propagation.REQUIRES_NEW)
+    public void processWithoutSkipLock() {
         List<Employee> listToProcess = findByStatus(PENDING).stream().toList();
         while (!listToProcess.isEmpty()) {
             listToProcess.forEach(this::processItem);
@@ -42,11 +52,16 @@ public class EmployeeService {
                 .text(String.format("id=%d employee=%s", employee.getId(), employee.getName()))
                 .build());
         employee.setStatus(DONE);
+        employee.setUpdateDate(LocalDateTime.now());
+        log.info("Processed={}", employee.getId());
+    }
+
+    public Page<Employee> findByStatusSkipLock(String status) {
+        return employeeRepository.findByStatusSkipLock(status, PageRequest.of(0, TOTAL_PER_LOT));
     }
 
     public Page<Employee> findByStatus(String status) {
-        Pageable pageable = PageRequest.of(0, 1000);
-        return employeeRepository.findByStatus(status, pageable);
+        return employeeRepository.findByStatus(status, PageRequest.of(0, TOTAL_PER_LOT));
     }
 
 }

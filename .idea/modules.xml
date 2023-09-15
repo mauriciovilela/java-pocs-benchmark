@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/basic.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgres-lock.main.iml" filepath="$PROJECT_DIR$/.idea/modules/postgres-lock.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgres-message-broker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/postgres-message-broker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-course.iml" filepath="$PROJECT_DIR$/spring-boot-course.iml" />
     </modules>
   </component>
 </project>

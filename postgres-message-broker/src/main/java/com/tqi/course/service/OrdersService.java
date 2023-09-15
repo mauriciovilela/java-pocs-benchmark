@@ -1,6 +1,8 @@
 package com.tqi.course.service;
 
+import com.tqi.course.model.Message;
 import com.tqi.course.model.Order;
+import com.tqi.course.repository.MessageRepository;
 import com.tqi.course.repository.OrdersRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -8,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Random;
 
 @Service
@@ -16,6 +19,7 @@ import java.util.Random;
 public class OrdersService {
 
     private final OrdersRepository ordersRepository;
+    private final MessageRepository messageRepository;
 
     public Order create() {
         Order order = new Order();
@@ -26,7 +30,14 @@ public class OrdersService {
 
     @Transactional
     public void processWithTopic(Long id) {
-        log.info("TOPIC message consumed id={}", id);
+        ordersRepository.findById(id).ifPresent(order -> {
+            log.info("TOPIC message consumed id={}", order.getId());
+            // add record from message consumed
+            messageRepository.save(Message.builder()
+                    .creationDate(LocalDateTime.now())
+                    .text(String.format("OPTIMISTIC id=%d", id))
+                    .build());
+        });
     }
 
 }
