@@ -1,0 +1,18 @@
+### Gradle ###
+.gradle
+**/build/
+/.metadata/
+/bin/
+
+target
+.vscode
+.project
+.settings/
+.classpath
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
