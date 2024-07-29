@@ -29,8 +29,10 @@ class MaterializedViewAppTests {
 	}
 
 	@Test
-	void performanceWithDefaultQuery() {
-		Instant startTime = Instant.now();
+	void testAndCompareResults() {
+
+		// requests with default query
+		Instant startTimeTables = Instant.now();
 		IntStream.rangeClosed(1, MAX_REQUESTS.intValue())
 				.forEach(i -> this.webTestClient
 						.get()
@@ -38,15 +40,10 @@ class MaterializedViewAppTests {
 						.exchange()
 						.expectStatus()
 						.isOk());
-		long totalInMs = Duration.between(startTime, Instant.now()).toMillis();
-		long totalTimePerReq = (totalInMs / MAX_REQUESTS);
-		System.out.printf("Report for default query (timePerRequest=%d totalRequests=%d%n)",
-				totalTimePerReq, MAX_REQUESTS);
-	}
+		long totalInMsTables = Duration.between(startTimeTables, Instant.now()).toMillis();
 
-	@Test
-	void performanceWithMaterializedView() {
-		Instant startTime = Instant.now();
+		// requests with materialized view
+		Instant startTimeView = Instant.now();
 		IntStream.rangeClosed(1, MAX_REQUESTS.intValue())
 				.forEach(i -> this.webTestClient
 						.get()
@@ -54,10 +51,15 @@ class MaterializedViewAppTests {
 						.exchange()
 						.expectStatus()
 						.isOk());
-		long totalInMs = Duration.between(startTime, Instant.now()).toMillis();
-		long totalTimePerReq = (totalInMs / MAX_REQUESTS);
-		System.out.printf("Report for materialized view (timePerRequest=%d totalRequests=%d%n)",
-				totalTimePerReq, MAX_REQUESTS);
+		long totalInMsView = Duration.between(startTimeView, Instant.now()).toMillis();
+
+		long totalTimePerReqView = (totalInMsView / MAX_REQUESTS);
+		long totalTimePerReqTables = (totalInMsTables / MAX_REQUESTS);
+
+		System.out.printf("Report for default query ### timePerRequest=%d(ms) totalRequests=%d%n",
+				totalTimePerReqTables, MAX_REQUESTS);
+		System.out.printf("Report for materialized view ### timePerRequest=%d(ms) totalRequests=%d%n",
+				totalTimePerReqView, MAX_REQUESTS);
 	}
 
 }
