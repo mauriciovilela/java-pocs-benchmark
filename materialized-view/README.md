@@ -25,7 +25,7 @@ Site: https://httpd.apache.org/docs/2.4/programs/ab.html
 
 ### Passo 3 - Rodar o teste de carga
 
-Volumentria de 100.000 registros na tabela principal
+Volumetria de 100.000 registros na tabela principal
 
 #### 1 - Teste com query normal (multiplos joins)
 
