@@ -39,6 +39,7 @@ ab -n 100 -c 2 http://localhost:8080/query-with-tables
 ab -n 100 -c 2 http://localhost:8080/query-with-view
 ```
 ![img.png](src/test/resources/img/img-ab-2.png)
+
 Observe que o resultado da view materializada é muito mais rápido que a consulta normal.
 
 ### Passo 4 - Informações complementares
