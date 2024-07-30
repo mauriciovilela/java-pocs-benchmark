@@ -48,7 +48,7 @@ public class DataGenerator implements CommandLineRunner {
         log.info("Created orders");
 
         purchaseOrderSummaryRepository.refreshMaterializedView();
-        log.info("Refreshed view");
+        log.info("Refreshed materialized view");
     }
 
     private void createUsers() {

@@ -33,24 +33,12 @@ class MaterializedViewAppTests {
 
 		// requests with default query
 		Instant startTimeTables = Instant.now();
-		IntStream.rangeClosed(1, MAX_REQUESTS.intValue())
-				.forEach(i -> this.webTestClient
-						.get()
-						.uri("/query-with-tables")
-						.exchange()
-						.expectStatus()
-						.isOk());
+		executeManyRequests("/query-with-tables");
 		long totalInMsTables = Duration.between(startTimeTables, Instant.now()).toMillis();
 
 		// requests with materialized view
 		Instant startTimeView = Instant.now();
-		IntStream.rangeClosed(1, MAX_REQUESTS.intValue())
-				.forEach(i -> this.webTestClient
-						.get()
-						.uri("/query-with-view")
-						.exchange()
-						.expectStatus()
-						.isOk());
+		executeManyRequests("/query-with-view");
 		long totalInMsView = Duration.between(startTimeView, Instant.now()).toMillis();
 
 		long totalTimePerReqView = (totalInMsView / MAX_REQUESTS);
@@ -60,6 +48,16 @@ class MaterializedViewAppTests {
 				totalTimePerReqTables, MAX_REQUESTS);
 		System.out.printf("Report for materialized view ### timePerRequest=%d(ms) totalRequests=%d%n",
 				totalTimePerReqView, MAX_REQUESTS);
+	}
+
+	private void executeManyRequests(String path) {
+		IntStream.rangeClosed(1, MAX_REQUESTS.intValue())
+				.forEach(i -> this.webTestClient
+						.get()
+						.uri(path)
+						.exchange()
+						.expectStatus()
+						.isOk());
 	}
 
 }
