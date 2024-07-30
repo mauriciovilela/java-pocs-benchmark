@@ -71,4 +71,6 @@ where
 
 ### Passo 5 - Conclusão
 
-O uso de view materializada é uma técnica muito eficiente para otimizar consultas complexas, principalmente em sistemas que possuem muitos dados. A view materializada é uma tabela que armazena o resultado de uma consulta, permitindo que a aplicação consulte essa tabela em vez de executar a consulta original. Isso pode melhorar significativamente o desempenho da aplicação, especialmente em consultas que envolvem muitas tabelas ou operações complexas.
+O uso de view materializada é uma técnica muito eficiente para otimizar consultas complexas, principalmente em sistemas que possuem muitos dados. 
+A view materializada é uma tabela que armazena o resultado de uma consulta, permitindo que a aplicação consulte essa tabela em vez de executar a consulta original. 
+Isso pode melhorar significativamente o desempenho da aplicação, especialmente em consultas que envolvem muitas tabelas ou operações complexas.
