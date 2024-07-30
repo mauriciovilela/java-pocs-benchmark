@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Spring-Dark.svg" width="48"/> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg" width="48"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg" width="48"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg" width="48">
 
-Utilizando o conceito de view materializada para otimizar consultas complexas (CQRS pattern).
+Utilizando o conceito de view materializada para otimizar consultas complexas, separando as responsabilidades da escrita e da leitura (CQRS pattern).
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*TaPzEj91HM06UgZoajqGwA.png)
 
