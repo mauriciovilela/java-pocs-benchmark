@@ -28,36 +28,17 @@ Volumentria de 100.000 registros na tabela principal
 #### 1 - Teste com query normal (multiplos joins)
 
 ```bash
-# Executar 100 vezez com 2 requests em paralelo
+# Executar 100 vezes com 2 requests em paralelo
 ab -n 100 -c 2 http://localhost:8080/query-with-tables
-
-#	Concurrency Level:      2
-#	Time taken for tests:   2.212 seconds
-#	Complete requests:      100
-#	Failed requests:        0
-#	Total transferred:      97000 bytes
-#	HTML transferred:       86500 bytes
-#	Requests per second:    45.20 [#/sec] (mean)
-#	Time per request:       44.248 [ms] (mean)
-#	Time per request:       22.124 [ms] (mean, across all concurrent requests)
-#	Transfer rate:          42.82 [Kbytes/sec] received
 ```
+
+![img.png](src/test/resources/img/img-ab-1.png)
 #### 2 - Teste com a view materializada
 ```bash
-# Executar 100 vezez com 2 requests em paralelo
+# Executar 100 vezes com 2 requests em paralelo
 ab -n 100 -c 2 http://localhost:8080/query-with-view
-
-#	Concurrency Level:      2
-#	Time taken for tests:   0.122 seconds
-#	Complete requests:      100
-#	Failed requests:        0
-#	Total transferred:      107800 bytes
-#	HTML transferred:       97300 bytes
-#	Requests per second:    821.51 [#/sec] (mean)
-#	Time per request:       2.435 [ms] (mean)
-#	Time per request:       1.217 [ms] (mean, across all concurrent requests)
-#	Transfer rate:          864.83 [Kbytes/sec] received
 ```
+![img.png](src/test/resources/img/img-ab-2.png)
 Observe que o resultado da view materializada é muito mais rápido que a consulta normal.
 
 ### Passo 4 - Informações complementares
