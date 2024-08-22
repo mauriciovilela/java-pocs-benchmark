@@ -2,12 +2,12 @@ package com.msv.course.service;
 
 import com.msv.course.message.MessageSender;
 import com.msv.course.model.Message;
-import com.msv.course.model.Order;
 import com.msv.course.repository.MessageRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
@@ -16,24 +16,21 @@ import java.time.LocalDateTime;
 @RequiredArgsConstructor
 public class MessageService {
 
-    private final OrdersService ordersService;
     private final MessageSender messageSender;
     private final MessageRepository messageRepository;
 
-    public void sendMessageAsync() {
-        Order order = ordersService.create();
-        messageSender.sendMessageAsync(order.getId().toString());
+    @Value("${queue-test-1}")
+    private String queueTest1;
+
+    public void sendTest1() {
+        messageSender.sendMessage(RandomStringUtils.randomAlphanumeric(20), queueTest1);
     }
 
-    @Transactional
-    public void processMessageQueue(String id) {
-        ordersService.findById(Long.valueOf(id)).ifPresent(order -> {
-            // add message
-            messageRepository.save(Message.builder()
-                    .creationDate(LocalDateTime.now())
-                    .text(id)
-                    .build());
-        });
+    public void processMessageQueue(String message) {
+        messageRepository.save(Message.builder()
+                .text(message)
+                .creationDate(LocalDateTime.now())
+                .build());
     }
 
 }

@@ -30,7 +30,7 @@ public class DataGenerator implements CommandLineRunner {
 
     private static final int TOTAL_USERS = 10000;
     private static final int TOTAL_PRODUCTS = 1000;
-    private static final int TOTAL_ORDERS = 100_000;
+    private static final int TOTAL_ORDERS = 200_000;
 
     @Override
     public void run(String... args) {
@@ -85,20 +85,23 @@ public class DataGenerator implements CommandLineRunner {
     }
 
     private void createOrders() {
-        List<Product> products = this.productRepository.findAll();
-        List<User> users = this.userRepository.findAll();
-        List<PurchaseOrder> purchaseOrders = IntStream.rangeClosed(0, TOTAL_ORDERS)
-                .parallel()
-                .mapToObj(i -> {
-                    int userIndex = RandomUtils.nextInt(0, TOTAL_USERS);
-                    int prodIndex = RandomUtils.nextInt(0, TOTAL_PRODUCTS);
-                    PurchaseOrder purchaseOrder = new PurchaseOrder();
-                    purchaseOrder.setUserId(users.get(userIndex).getId());
-                    purchaseOrder.setProductId(products.get(prodIndex).getId());
-                    return purchaseOrder;
-                })
-                .toList();
-        this.purchaseOrderRepository.saveAll(purchaseOrders);
+        for (int idx = 0; idx < 10; idx++) {
+            List<Product> products = this.productRepository.findAll();
+            List<User> users = this.userRepository.findAll();
+            List<PurchaseOrder> purchaseOrders = IntStream.rangeClosed(0, TOTAL_ORDERS)
+                    .parallel()
+                    .mapToObj(i -> {
+                        int userIndex = RandomUtils.nextInt(0, TOTAL_USERS);
+                        int prodIndex = RandomUtils.nextInt(0, TOTAL_PRODUCTS);
+                        PurchaseOrder purchaseOrder = new PurchaseOrder();
+                        purchaseOrder.setUserId(users.get(userIndex).getId());
+                        purchaseOrder.setProductId(products.get(prodIndex).getId());
+                        return purchaseOrder;
+                    })
+                    .toList();
+            log.info("Try add orders qtd={}", purchaseOrders.size());
+            this.purchaseOrderRepository.saveAll(purchaseOrders);
+        }
     }
 
 }

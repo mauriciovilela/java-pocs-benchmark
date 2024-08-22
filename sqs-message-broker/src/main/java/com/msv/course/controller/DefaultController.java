@@ -15,9 +15,9 @@ public class DefaultController {
     @Autowired
     private MessageService messageService;
 
-    @PostMapping("/send")
-    public void sendMessageAsync() {
-        messageService.sendMessageAsync();
+    @PostMapping("/test-1")
+    public void test1() {
+        messageService.sendTest1();
     }
 
 }
