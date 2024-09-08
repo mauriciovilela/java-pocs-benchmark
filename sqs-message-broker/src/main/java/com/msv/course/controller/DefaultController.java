@@ -20,4 +20,9 @@ public class DefaultController {
         messageService.sendTest1();
     }
 
+    @PostMapping("/test-2")
+    public void test2() {
+        messageService.sendTest2();
+    }
+
 }

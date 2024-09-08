@@ -37,8 +37,18 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.flywaydb:flyway-core'
 
-//	implementation 'io.awspring.cloud:spring-cloud-aws-starter-sqs'
-//	implementation 'software.amazon.awssdk:aws-crt-client'
+//	implementation 'org.apache.camel.springboot:camel-spring-boot-starter:4.6.0'
+//	implementation 'org.apache.camel:camel-aws:2.25.4'
+//	implementation 'org.apache.camel:camel-core:4.6.0'
+//	implementation 'org.apache.camel:camel-spring:4.6.0'
+//	implementation 'org.apache.camel:camel-timer:4.6.0'
+
+	implementation 'org.apache.camel.springboot:camel-spring-boot-starter:4.6.0'
+	implementation 'org.apache.camel.springboot:camel-aws2-sqs-starter:4.6.0'
+//	implementation 'org.apache.camel:camel-core:4.6.0'
+	implementation 'org.apache.camel:camel-aws2-sqs:4.6.0'
+
+	implementation 'com.amazonaws:aws-java-sdk:1.9.23'
 
 	implementation 'org.springframework:spring-messaging:5.3.24'
 	implementation 'org.springframework.cloud:spring-cloud-aws-messaging:2.2.6.RELEASE'

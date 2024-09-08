@@ -26,22 +26,4 @@ public class MessageSender {
         }
     }
 
-//    public void sendMessage(Object message, String queue) {
-//        SendMessageRequest sendMsgRequest = SendMessageRequest.builder()
-//                .queueUrl("http://localhost:9324/queue/" + queue)
-//                .messageBody(message.toString())
-//                .build();
-//        sendMessage(sendMsgRequest);
-//    }
-//
-//    public void sendMessage(SendMessageRequest sendMessageRequest) {
-//        sqsAsyncClient.sendMessage(sendMessageRequest).whenComplete((sendResult, throwable) -> {
-//            if (Objects.nonNull(throwable)) {
-//                log.error("Error on sending message={}", sendResult, throwable);
-//            } else {
-//                log.info("Message sent successfully={}", sendMessageRequest.messageBody());
-//            }
-//        });
-//    }
-
 }
